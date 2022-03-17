@@ -1,6 +1,6 @@
 body {
   background: #191765;
-  background-image: url(./images/Ellipse\ 18.svg);
+  background-image: url(./images/top-circles.svg);
   background-repeat: no-repeat;
   max-width: 375px;
   font-family: 'roboto', sans-serif;
@@ -70,6 +70,33 @@ h2 {
   top: 0;
 }
 
+h5 {
+    color: #7571D8;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 24px;
+    position: static;
+    width: 107px;
+    height: 16px;
+    left: 8px;
+    top: 5.33px;
+}
+
+p {
+    color: #F5F5FF;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.logos {
+    width: 200px;
+    height: 40px;
+    margin: 24px 0px;
+}
+
 .toolbar {
   display: flex;
   justify-content: space-between;
@@ -79,4 +106,33 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.certifications {
+    display: flex;
+    align-items: flex-start;
+}
+
+.language {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.frameworks {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

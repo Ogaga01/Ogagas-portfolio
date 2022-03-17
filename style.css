@@ -71,30 +71,30 @@ h2 {
 }
 
 h5 {
-    color: #7571D8;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 24px;
-    position: static;
-    width: 107px;
-    height: 16px;
-    left: 8px;
-    top: 5.33px;
+  color: #7571d8;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 24px;
+  position: static;
+  width: 107px;
+  height: 16px;
+  left: 8px;
+  top: 5.33px;
 }
 
 p {
-    color: #F5F5FF;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 24px;
+  color: #f5f5ff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
 }
 
 .logos {
-    width: 200px;
-    height: 40px;
-    margin: 24px 0px;
+  width: 200px;
+  height: 40px;
+  margin: 24px 0;
 }
 
 .toolbar {
@@ -109,30 +109,30 @@ p {
 }
 
 .certifications {
-    display: flex;
-    align-items: flex-start;
+  display: flex;
+  align-items: flex-start;
 }
 
 .language {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .frameworks {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .skills {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .social {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

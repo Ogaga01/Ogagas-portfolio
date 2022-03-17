@@ -1,0 +1,83 @@
+body {
+    background: #191765;
+    background-image: url(./images/Ellipse\ 18.svg);
+    background-repeat: no-repeat;
+    max-width: 375px;
+    font-family: 'roboto', sans-serif;
+  }
+  
+  h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+    text-align: center;
+    letter-spacing: 0.37px;
+    color: #7d73fc;
+    position: static;
+    width: 327px;
+    height: 55px;
+    left: 0;
+    top: 0;
+  }
+  
+  h2 {
+    color: #edecff;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 44px;
+    align-items: center;
+    text-align: center;
+    position: static;
+    width: 327px;
+    height: 87px;
+    left: 0;
+    top: 67px;
+  }
+  
+  .john {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 16px;
+    color: #edecff;
+    position: static;
+    width: 81px;
+    height: 16px;
+    margin-left: 12px;
+    top: 10px;
+  }
+  
+  .menu {
+    width: 35.33px;
+    height: 22.83px;
+    margin-left: 7.33px;
+    margin-top: 13.58px;
+  }
+  
+  .first-para {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #c8c8d4;
+    position: static;
+    width: 327px;
+    height: 170px;
+    left: 0;
+    top: 0;
+  }
+  
+  .toolbar {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  

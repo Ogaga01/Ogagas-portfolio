@@ -21,6 +21,12 @@ ul {
   justify-content: space-around;
 }
 
+.base li {
+  border-right: 2px solid #555;
+  padding-right: 20px;
+  height: 35px;
+}
+
 h1 {
   font-style: normal;
   font-weight: 700;
@@ -264,4 +270,8 @@ p {
 .mywork {
   display: flex;
   justify-self: center;
+}
+
+.base li:last-child {
+  border-right: none;
 }

@@ -1,0 +1,145 @@
+body {
+  background: #191765;
+  background-image: url(./images/top-circles.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  font-family: 'roboto', sans-serif;
+  margin: 0;
+}
+
+h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 72px;
+  text-align: center;
+  letter-spacing: 0.37px;
+  color: #7d73fc;
+  position: static;
+  width: 327px;
+  height: 55px;
+  left: 0;
+  top: 0;
+}
+
+h2 {
+  color: #edecff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 44px;
+  align-items: center;
+  text-align: center;
+  position: static;
+  width: 327px;
+  height: 87px;
+  left: 0;
+  top: 67px;
+}
+
+.john {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 16px;
+  color: #edecff;
+  position: static;
+  width: 81px;
+  height: 16px;
+  top: 10px;
+}
+
+.menu {
+  width: 35.33px;
+  height: 22.83px;
+  margin-left: 7.33px;
+  margin-top: 13.58px;
+  margin-right: 20px;
+}
+
+.first-para {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #c8c8d4;
+  position: static;
+  width: 327px;
+  height: 170px;
+  left: 0;
+  top: 0;
+}
+
+h5 {
+  color: #7571d8;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 24px;
+  position: static;
+  width: 107px;
+  height: 16px;
+  left: 8px;
+  top: 5.33px;
+}
+
+p {
+  color: #f5f5ff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.logos {
+  width: 200px;
+  height: 40px;
+  margin: 24px 0;
+}
+
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.certifications {
+  display: flex;
+  align-items: flex-start;
+  width: 80%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.language {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.frameworks {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 40px;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.social {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

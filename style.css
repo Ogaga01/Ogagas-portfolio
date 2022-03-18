@@ -2,8 +2,8 @@ body {
   background: #191765;
   background-image: url(./images/top-circles.svg);
   background-repeat: no-repeat;
-  max-width: 375px;
   font-family: 'roboto', sans-serif;
+  margin: 0px;
 }
 
 h1 {
@@ -45,7 +45,6 @@ h2 {
   position: static;
   width: 81px;
   height: 16px;
-  margin-left: 12px;
   top: 10px;
 }
 
@@ -111,6 +110,8 @@ p {
 .certifications {
   display: flex;
   align-items: flex-start;
+  width: 20%;
+  margin: 0 auto;
 }
 
 .language {
@@ -129,6 +130,8 @@ p {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  width: 20%;
+  margin: 0 auto;
 }
 
 .social {

@@ -2,8 +2,9 @@ body {
   background: #191765;
   background-image: url(./images/top-circles.svg);
   background-repeat: no-repeat;
+  background-size: contain;
   font-family: 'roboto', sans-serif;
-  margin: 0px;
+  margin: 0;
 }
 
 h1 {
@@ -110,8 +111,9 @@ p {
 .certifications {
   display: flex;
   align-items: flex-start;
-  width: 20%;
+  width: 80%;
   margin: 0 auto;
+  justify-content: space-between;
 }
 
 .language {
@@ -124,13 +126,14 @@ p {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  margin-right: 40px;
 }
 
 .skills {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  width: 20%;
+  width: 80%;
   margin: 0 auto;
 }
 

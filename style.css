@@ -1,10 +1,34 @@
 body {
   background: #191765;
+  font-family: 'roboto', sans-serif;
+  margin: 0;
+}
+
+.mobile {
   background-image: url(./images/top-circles.svg);
   background-repeat: no-repeat;
   background-size: contain;
-  font-family: 'roboto', sans-serif;
   margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  padding-inline-start: 0;
+}
+
+.base {
+  display: flex;
+  justify-content: space-around;
+}
+
+.base li {
+  border-right: 2px solid #555;
+  padding-right: 20px;
+  height: 35px;
 }
 
 h1 {
@@ -17,9 +41,17 @@ h1 {
   color: #7d73fc;
   position: static;
   width: 327px;
-  height: 55px;
+  height: 30px;
   left: 0;
   top: 0;
+}
+
+.recent {
+  font-style: normal;
+  display: flex;
+  align-self: flex-start;
+  margin-bottom: 140px;
+  text-align: left;
 }
 
 h2 {
@@ -32,9 +64,18 @@ h2 {
   text-align: center;
   position: static;
   width: 327px;
-  height: 87px;
   left: 0;
   top: 67px;
+}
+
+.second-header {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  color: #fff;
 }
 
 .john {
@@ -54,7 +95,7 @@ h2 {
   height: 22.83px;
   margin-left: 7.33px;
   margin-top: 13.58px;
-  margin-right: 20px;
+  margin-right: 15px;
 }
 
 .first-para {
@@ -92,6 +133,53 @@ p {
   line-height: 24px;
 }
 
+.second-para {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #dcdce8;
+  width: 327px;
+  height: 204px;
+  left: 0;
+  top: 129px;
+}
+
+.placeholder {
+  margin: 40px 0;
+}
+
+.workwith ul li {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  color: #f5f5ff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  margin-top: 8px;
+}
+
+.certifications ul li {
+  list-style-type: none;
+  color: #f5f5ff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  margin-top: 8px;
+}
+
+.top {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  margin-top: 5px;
+  margin-left: 0;
+}
+
 .logos {
   width: 200px;
   height: 40px;
@@ -101,6 +189,19 @@ p {
 .toolbar {
   display: flex;
   justify-content: space-between;
+}
+
+.butt {
+  width: 89px;
+  height: 48px;
+  left: 0;
+  margin-top: 20px;
+  background-color: #7d73fc;
+  color: white;
+}
+
+.butt:hover {
+  color: blue;
 }
 
 .about {
@@ -136,10 +237,39 @@ p {
   align-items: flex-start;
   width: 80%;
   margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.skills ul li {
+  color: #f5f5ff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  list-style-type: none;
+  margin-top: 8px;
 }
 
 .social {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.works {
+  background-image: url(./images/portfolio-background-shapes-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: grid;
+  justify-content: center;
+  padding: 24px;
+}
+
+.mywork {
+  display: flex;
+  justify-self: center;
+}
+
+.base li:last-child {
+  border-right: none;
 }

@@ -26,8 +26,13 @@ To get a local copy up and running follow these simple example steps.
 
 
 ### Install
-https://github.com/Ogaga01/mobile-version-portfolio-project.git
-cd mobile-version-portfolio-project
+- Repo link: https://github.com/Ogaga01/mobile-version-portfolio-project
+
+- Copy SSH link or HTTP link
+
+- git clone link copied
+
+- cd mobile-version-portfolio-project
 
 
 

@@ -1,9 +1,13 @@
 body {
   background: #191765;
+  font-family: 'roboto', sans-serif;
+  margin: 0;
+}
+
+.mobile {
   background-image: url(./images/top-circles.svg);
   background-repeat: no-repeat;
   background-size: contain;
-  font-family: 'roboto', sans-serif;
   margin: 0;
 }
 
@@ -44,11 +48,10 @@ h1 {
 
 .recent {
   font-style: normal;
-  font-weight: 500;
-  font-size: 40px;
-  line-height: 52px;
   display: flex;
   align-self: flex-start;
+  margin-bottom: 140px;
+  text-align: left;
 }
 
 h2 {
@@ -63,11 +66,6 @@ h2 {
   width: 327px;
   left: 0;
   top: 67px;
-}
-
-.vl {
-  border-left: 2px solid #555;
-  height: 40px;
 }
 
 .second-header {
@@ -148,7 +146,7 @@ p {
 }
 
 .placeholder {
-  margin: 24px 0;
+  margin: 40px 0;
 }
 
 .workwith ul li {

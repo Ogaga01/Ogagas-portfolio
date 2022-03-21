@@ -260,6 +260,7 @@ p {
   background-image: url(./images/portfolio-background-shapes-mobile.svg);
   background-repeat: no-repeat;
   background-size: contain;
+  background-position: 10%;
   display: grid;
   justify-content: center;
   padding: 24px;
@@ -272,4 +273,59 @@ p {
 
 .base li:last-child {
   border-right: none;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 24px;
+}
+
+.third-para {
+  width: 327px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+footer .form .butt {
+  align-self: center;
+}
+
+footer h2 {
+  color: #9390ff;
+  margin-top: 66px;
+}
+
+input.input {
+  width: 309px;
+  margin-bottom: 12px;
+  height: 31px;
+  padding: 12px;
+}
+
+input#name {
+  margin-bottom: 12px;
+}
+
+a {
+  color: #fff;
+  margin-bottom: 24px;
+}
+
+.footer-hr {
+  width: 100%;
+  background-color: #3a3837;
+  height: 1px;
+  margin-top: 38px;
+  margin-bottom: 24px;
 }

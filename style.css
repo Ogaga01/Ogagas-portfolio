@@ -288,6 +288,7 @@ footer {
 }
 
 .third-para{
+  width: 327px;
   text-align: center;
   font-family: 'Inter';
   font-style: normal;
@@ -306,7 +307,7 @@ footer h2 {
 }
 
 input.input {
-  width: 327px;
+  width: 309px;
   margin-bottom: 12px;
   height: 31px;
   padding: 12px;
@@ -314,4 +315,17 @@ input.input {
 
 input#name {
   margin-bottom: 12px;
+}
+a {
+  color: #fff;
+  margin-bottom: 24px;
+}
+
+.footer-hr {
+  width: 100%;
+  background-color: #3A3837;
+  height: 1px;
+  margin-top: 38px;
+  margin-bottom: 24px;
+
 }

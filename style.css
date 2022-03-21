@@ -304,3 +304,14 @@ footer h2 {
   color: #9390FF;
   margin-top: 66px;
 }
+
+input.input {
+  width: 327px;
+  margin-bottom: 12px;
+  height: 31px;
+  padding: 12px;
+}
+
+input#name {
+  margin-bottom: 12px;
+}

@@ -260,6 +260,7 @@ p {
   background-image: url(./images/portfolio-background-shapes-mobile.svg);
   background-repeat: no-repeat;
   background-size: contain;
+  background-position: 10%;
   display: grid;
   justify-content: center;
   padding: 24px;
@@ -287,10 +288,9 @@ footer {
   padding: 24px;
 }
 
-.third-para{
+.third-para {
   width: 327px;
   text-align: center;
-  font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -302,7 +302,7 @@ footer .form .butt {
 }
 
 footer h2 {
-  color: #9390FF;
+  color: #9390ff;
   margin-top: 66px;
 }
 
@@ -316,6 +316,7 @@ input.input {
 input#name {
   margin-bottom: 12px;
 }
+
 a {
   color: #fff;
   margin-bottom: 24px;
@@ -323,9 +324,8 @@ a {
 
 .footer-hr {
   width: 100%;
-  background-color: #3A3837;
+  background-color: #3a3837;
   height: 1px;
   margin-top: 38px;
   margin-bottom: 24px;
-
 }

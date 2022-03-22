@@ -180,10 +180,9 @@ p {
   margin-left: 0;
 }
 
-.logos {
-  width: 200px;
-  height: 40px;
-  margin: 24px 0;
+.logos ul {
+  display: flex;
+  justify-content: center;
 }
 
 .toolbar {
@@ -248,12 +247,6 @@ p {
   line-height: 24px;
   list-style-type: none;
   margin-top: 8px;
-}
-
-.social {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .works {
@@ -328,4 +321,14 @@ a {
   height: 1px;
   margin-top: 38px;
   margin-bottom: 24px;
+}
+
+.divider {
+  width: 87%;
+  border: 1px solid #646369;
+}
+
+.dividers {
+  width: 100%;
+  border: 1px solid #646369;
 }

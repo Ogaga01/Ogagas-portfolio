@@ -305,3 +305,7 @@ a {
     margin-left: -42px;
   }
 }
+
+@media (min-width: 768px) {
+  
+}

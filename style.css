@@ -1,7 +1,7 @@
 body {
   background-color: #191765;
   font-family: 'roboto', sans-serif;
-  margin: 0%;
+  margin: 0;
 }
 
 ul {
@@ -10,6 +10,7 @@ ul {
 
 a {
   text-decoration: none;
+  color: #fff;
 }
 
 @media (max-width: 450px) {
@@ -201,6 +202,10 @@ a {
     line-height: 60px;
   }
 
+  .rec-post {
+    display: none;
+  }
+
   .dividers {
     width: 90%;
     border: 1px solid #646369;
@@ -303,5 +308,383 @@ a {
     display: flex;
     justify-content: center;
     margin-left: -42px;
+  }
+
+  .chat {
+    display: none;
+  }
+
+  .form-2 {
+    display: none;
+  }
+
+  .log-2 {
+    display: none;
+  }
+
+  .footer-hr-2 {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .mobile {
+    background-image: url(./images/twocirclesheader.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0 150px;
+  }
+
+  .toolbar {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  .john {
+    font-size: 18px;
+    color: #fff;
+  }
+
+  .menu-list {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 50px;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about h1 {
+    font-size: 90px;
+    line-height: 105px;
+    color: #9390ff;
+    margin-bottom: 0%;
+  }
+
+  .about h2 {
+    font-size: 40px;
+    line-height: 47px;
+    color: #babbcd;
+  }
+
+  .about .first-para {
+    font-size: 20px;
+    line-height: 32px;
+    color: #9196b0;
+    width: 447px;
+    margin: 20px 400px;
+    text-align: center;
+  }
+
+  .divider {
+    width: 35%;
+    border: 1px solid #646369;
+  }
+
+  .known {
+    display: flex;
+    margin: 0 450px;
+    justify-content: center;
+    margin-left: 408px;
+  }
+
+  .certifications {
+    display: flex;
+    justify-content: center;
+  }
+
+  h5 {
+    color: #7571d8;
+    font-size: 18px;
+  }
+
+  .base li {
+    border-right: 2px solid #555;
+    padding-right: 10px;
+    height: 30px;
+    padding-top: 10px;
+    color: #ffff;
+  }
+
+  .frameworks h5 {
+    margin-left: 40px;
+  }
+
+  .language {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .language ul {
+    margin-top: 0;
+  }
+
+  .language ul li {
+    color: #f5f5ff;
+    font-size: 15px;
+    line-height: 24px;
+    margin-top: 8px;
+    margin-left: -40px;
+  }
+
+  .frameworks {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 40px;
+  }
+
+  .frameworks ul {
+    margin-top: 0;
+  }
+
+  .frameworks ul li {
+    color: #f5f5ff;
+    font-size: 15px;
+    line-height: 24px;
+    margin-top: 8px;
+    margin-left: 0;
+  }
+
+  .skills {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+
+  .skills ul {
+    margin-top: 0;
+  }
+
+  .skills ul li {
+    color: #f5f5ff;
+    font-size: 15px;
+    line-height: 24px;
+    margin-top: 8px;
+    margin-left: -40px;
+  }
+
+  .logos {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 150px;
+  }
+
+  .logos ul {
+    display: flex;
+    margin-left: -41px;
+  }
+
+  .works {
+    display: flex;
+    flex-direction: column;
+    background-image: url(./images/Group65.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0;
+    margin-right: 0;
+  }
+
+  .recent {
+    display: none;
+  }
+
+  .rec-post {
+    font-size: 50px;
+    line-height: 114px;
+    color: #9390ff;
+    align-self: flex-start;
+    margin: 0 10%;
+  }
+
+  .dividers {
+    width: 80%;
+    border: 1px solid #646369;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+
+  .post {
+    display: flex;
+    margin: 0 10%;
+  }
+
+  .post-a {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: -20px;
+  }
+
+  .second-header {
+    font-size: 30px;
+    line-height: 52px;
+    color: #fff;
+    width: 350px;
+    height: 80px;
+    margin-top: 54px;
+    margin-bottom: 0;
+  }
+
+  .second-para {
+    font-size: 16px;
+    line-height: 24px;
+    color: #c6c7d6;
+    width: 350px;
+    height: 140px;
+    margin-top: -19px;
+  }
+
+  .base {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 30px;
+    width: 250px;
+    height: 40px;
+  }
+
+  .base li:last-child {
+    border-right: none;
+  }
+
+  .butt {
+    width: 90px;
+    height: 35px;
+    left: 0;
+    margin-top: 10px;
+    margin-bottom: 35px;
+    background-color: #7d73fc;
+    color: white;
+  }
+
+  .butt:hover {
+    color: blue;
+  }
+
+  .placeholder {
+    width: 550px;
+    height: 448px;
+    margin-right: 20px;
+  }
+
+  .post-1 {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 0 10%;
+  }
+
+  .post-2 {
+    display: flex;
+    margin: 0 10%;
+  }
+
+  .post-3 {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 0 10%;
+  }
+
+  .post-1-b {
+    margin-right: 20px;
+  }
+
+  .post-3-d {
+    margin-right: 20px;
+  }
+
+  .contact {
+    display: none;
+  }
+
+  .form {
+    display: none;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 100px 30%;
+    margin-bottom: 0;
+  }
+
+  .form-2 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .log {
+    display: none;
+  }
+
+  .logos-2 {
+    display: flex;
+  }
+
+  .third-para {
+    font-size: 14px;
+    line-height: 22px;
+    color: #ebebff;
+    align-self: center;
+    text-align: center;
+    margin-bottom: 60px;
+  }
+
+  .chat {
+    font-size: 33px;
+    line-height: 20px;
+    color: #9390ff;
+    text-align: center;
+  }
+
+  .last {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .input {
+    width: 280px;
+    margin-bottom: 15px;
+    height: 25px;
+  }
+
+  .email {
+    margin-bottom: 15px;
+    height: 25px;
+  }
+
+  #textareas {
+    margin-bottom: 60px;
+  }
+
+  .form-2 .butt {
+    align-self: center;
+  }
+
+  .footer-hr {
+    display: none;
+  }
+
+  .mail {
+    margin-top: 30px;
+  }
+
+  .log-2 {
+    display: flex;
+    justify-content: center;
   }
 }

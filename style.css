@@ -651,9 +651,8 @@ a {
   }
 
   .input {
-    width: 220px;
-    margin-bottom: 15px;
     width: 250px;
+    margin-bottom: 15px;
   }
 
   .email {

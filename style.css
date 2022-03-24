@@ -329,7 +329,7 @@ a {
 
 @media (min-width: 768px) {
   .mobile {
-    background-image: url(/images/twocirclesheader.svg);
+    background-image: url(./images/twocirclesheader.svg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: 0 150px;
@@ -491,7 +491,7 @@ a {
   .works {
     display: flex;
     flex-direction: column;
-    background-image: url(/images/Group65.svg);
+    background-image: url(./images/Group65.svg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: 0;

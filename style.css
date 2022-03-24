@@ -659,10 +659,12 @@ a {
   .input {
     width: 250px;
     margin-bottom: 15px;
+    height: 25px;
   }
 
   .email {
     margin-bottom: 15px;
+    height: 25px;
   }
 
   #textareas {

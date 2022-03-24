@@ -317,6 +317,14 @@ a {
   .form-2 {
     display: none;
   }
+
+  .log-2 {
+    display: none;
+  }
+
+  .footer-hr-2 {
+    display: none;
+  }
 }
 
 @media (min-width: 768px) {
@@ -607,8 +615,8 @@ a {
   }
 
   footer {
-    display: grid;
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
     width: 40%;
     margin: 100px 30%;
     margin-bottom: 0;
@@ -620,9 +628,7 @@ a {
   }
 
   .log {
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 0;
+    display: none;
   }
 
   .logos-2 {
@@ -668,15 +674,15 @@ a {
   }
 
   .footer-hr {
-    width: 400%;
-    background-color: #3a3837;
-    height: 0.5px;
-    margin-top: 60px;
-    margin-bottom: 24px;
-    margin-left: -400px;
+    display: none;
   }
 
   .mail {
     margin-top: 30px;
+  }
+
+  .log-2 {
+    display: flex;
+    justify-content: center;
   }
 }

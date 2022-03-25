@@ -13,6 +13,28 @@ a {
   color: #fff;
 }
 
+.menu-list a:hover {
+  background-color: #7d73fc;
+  border: 1px solid #FFF;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.menu-list :last-child a:hover {
+  background-color: #191765;
+  border: #191765;
+}
+
+.john:hover {
+  color: #7d73fc;
+  font-size: 20px;
+}
+
+.image:hover {
+  width: 50px;
+  height: 50px;
+}
+
 @media (max-width: 767px) {
   .mobile {
     background-image: url(./images/top-circles.svg);
@@ -45,7 +67,7 @@ a {
     margin: 8px 0;
   }
 
-  .about h1 {
+  #about h1 {
     font-size: 48px;
     text-align: center;
     color: #7d73fc;
@@ -57,13 +79,13 @@ a {
     font-size: 32px;
   }
 
-  .about h2 {
+  #about h2 {
     font-size: 32px;
     text-align: center;
     color: #edecff;
   }
 
-  .about .first-para {
+  #about .first-para {
     font-size: 20px;
     color: #8685aa;
     width: 327px;
@@ -185,7 +207,7 @@ a {
     margin-left: 154px;
   }
 
-  .works {
+  #works {
     background-image: url(./images/portfolio-background-shapes-mobile.svg);
     background-repeat: no-repeat;
     background-position: 0%;
@@ -356,26 +378,26 @@ a {
     display: none;
   }
 
-  .about {
+  #about {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
-  .about h1 {
+  #about h1 {
     font-size: 90px;
     line-height: 105px;
     color: #9390ff;
     margin-bottom: 0%;
   }
 
-  .about h2 {
+  #about h2 {
     font-size: 40px;
     line-height: 47px;
     color: #babbcd;
   }
 
-  .about .first-para {
+  #about .first-para {
     font-size: 20px;
     line-height: 32px;
     color: #9196b0;
@@ -488,7 +510,7 @@ a {
     margin-left: -41px;
   }
 
-  .works {
+  #works {
     display: flex;
     flex-direction: column;
     background-image: url(./images/Group65.svg);
@@ -606,7 +628,7 @@ a {
     margin-right: 20px;
   }
 
-  .contact {
+  #contacts {
     display: none;
   }
 
@@ -679,7 +701,7 @@ a {
     display: none;
   }
 
-  .mail {
+  #mail {
     margin-top: 30px;
   }
 

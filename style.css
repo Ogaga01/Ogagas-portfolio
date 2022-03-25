@@ -13,7 +13,7 @@ a {
   color: #fff;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 767px) {
   .mobile {
     background-image: url(./images/top-circles.svg);
     background-repeat: no-repeat;
@@ -326,6 +326,7 @@ a {
     display: none;
   }
 }
+
 
 @media (min-width: 768px) {
   .mobile {

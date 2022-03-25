@@ -327,7 +327,6 @@ a {
   }
 }
 
-
 @media (min-width: 768px) {
   .mobile {
     background-image: url(./images/twocirclesheader.svg);

@@ -3,7 +3,7 @@
 
 # mobile-version-portfolio-project
 
-> The mobile version of my portfolio website
+> My portfolio website
 
 
 ## Built With
@@ -26,7 +26,7 @@ To get a local copy up and running follow these simple example steps.
 
 
 ### Install
-- Repo link: https://github.com/Ogaga01/mobile-version-portfolio-project
+- Repo link: https://github.com/Ogaga01/Ogagas-portfolio
 
 - Copy SSH link or HTTP link
 

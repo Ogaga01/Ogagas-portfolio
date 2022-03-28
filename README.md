@@ -3,7 +3,7 @@
 
 # mobile-version-portfolio-project
 
-> My portfolio website (mobile and Desktop versions)
+> My portfolio website (Mobile and esktop versions)
 
 
 ## Built With

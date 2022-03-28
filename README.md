@@ -13,7 +13,7 @@
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://ogaga01.github.io/Ogagas-portfolio)
 
 
 ## Getting Started

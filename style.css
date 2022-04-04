@@ -60,11 +60,19 @@ a {
     align-self: flex-start;
     font-size: 18px;
     color: #ffff;
+    margin-left: 15px;
   }
 
   .menu {
-    height: 35px;
-    margin: 8px 0;
+    margin-top: 15px;
+    margin-right: 15px;
+  }
+
+  .line {
+    background-color: #FFF;
+    width: 2rem;
+    height: .2rem;
+    margin-bottom: 5px;
   }
 
   #about h1 {
@@ -346,6 +354,11 @@ a {
 
   .footer-hr-2 {
     display: none;
+  }
+
+  .mail {
+    text-align: center;
+    margin-left: 10px;
   }
 }
 

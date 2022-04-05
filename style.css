@@ -33,6 +33,8 @@ a {
 .image:hover {
   width: 50px;
   height: 50px;
+  justify-content: space-between;
+  flex-direction: row;
 }
 
 @media (max-width: 767px) {
@@ -46,9 +48,8 @@ a {
   nav {
     display: flex;
   }
-
-  nav ul li {
-    display: none;
+  .show {
+    display: block !important;
   }
 
   .toolbar {
@@ -74,6 +75,55 @@ a {
     height: 0.2rem;
     margin-bottom: 5px;
   }
+
+  /* Mobile menu */
+
+.menu-list {
+  width: 100%;
+  display: none;
+  background-image: url(./images/menu-img.svg);
+  background-size:cover;
+  background-color: #16155B;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 0;
+  top: -10px;
+  height: 100vh;
+}
+
+.menu-list li:last-child {
+  display: none;
+}
+
+.menu-list a {
+  font-size: 24px;
+  line-height: 60px;
+}
+
+.arrow {
+  color: #5C55CA;
+  font-size: 23px;
+  padding-left: 220px;
+}
+
+.arrow1 {
+  color: #5C55CA;
+  font-size: 23px;
+  padding-left: 195px;
+}
+
+.arrow2 {
+  color: #5C55CA;
+  font-size: 23px;
+  padding-left: 200px;
+}
+
+.close {
+  color: #fff;
+  font-size: 40px;
+  padding-left: 280px;
+  padding-top: 16px;
+}
 
   #about h1 {
     font-size: 48px;
@@ -356,7 +406,7 @@ a {
     display: none;
   }
 
-  .mail {
+  .mail1 {
     text-align: center;
     margin-left: 10px;
   }
@@ -388,6 +438,22 @@ a {
   }
 
   .menu {
+    display: none;
+  }
+
+  .arrow {
+    display: none;
+  }
+
+  .arrow1 {
+    display: none;
+  }
+
+  .arrow2 {
+    display: none;
+  }
+
+  .close {
     display: none;
   }
 

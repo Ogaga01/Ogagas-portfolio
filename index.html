@@ -6,7 +6,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./style.css">
         <title>Ogaga's Portfolio</title>
-        <script src="./mobile.js"></script>
     </head>
 
     <body>
@@ -16,12 +15,13 @@
                 <a href="./index.html"><h2 class="john">Ogaga</h2></a>
                     <nav>
                         <ul class="menu-list">
-                            <li><a href="#works">Portfolio</a></li>
-                            <li><a href="#about">About</a></li>
-                            <li><a href="#contact">Contact</a></li>
+                            <li class="close">&times;</li>
+                            <li class="list"><a href="#works">Portfolio <span class="arrow1">></span></a></li>
+                            <li class="list"><a href="#about">About <span class="arrow">></span></a></li>
+                            <li class="list"><a href="#contact">Contact <span class="arrow2">></span></a></li>
                             <li><a href="#mail"><img src="./images/mail.svg" alt="Mail"></a></li>
                         </ul>
-                        <div class="menu">
+                        <div id="menu-up" class="menu">
                             <div class="line"></div>
                             <div class="line"></div>
                             <div class="line"></div>
@@ -179,7 +179,7 @@
                         <li><a href="https://twitter.com/i_ogaga_n"><img class="image" src="./images/twitter.svg" alt="twitter"></a></li>
                         <li><a href=""><img class="image" src="./images/medium.svg" alt="medium"></a></li>
                     </ul>
-                    <a class="mail" href="mailto:iyaraogaga69@gmail.com">iyaraogaga69@gmail.com</a>
+                    <a class="mail1" href="mailto:iyaraogaga69@gmail.com">iyaraogaga69@gmail.com</a>
                 </div>
             </footer>
             <hr class="footer-hr-2">
@@ -194,5 +194,6 @@
                 <a id="mail" href="mailto:iyaraogaga69@gmail.com">iyaraogaga69@gmail.com</a>
             </div>
         </main>
+        <script src="./mobile.js"></script>
     </body>
 </html>

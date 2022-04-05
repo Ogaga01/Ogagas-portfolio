@@ -10,6 +10,7 @@
 
 - HTML
 - CSS
+- JavaScript
 
 ## Live Demo (if available)
 

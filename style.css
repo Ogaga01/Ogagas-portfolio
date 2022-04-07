@@ -36,6 +36,18 @@ a {
   justify-content: space-between;
   flex-direction: row;
 }
+  #poupWrapper{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(4px);
+
+}
 
 @media (max-width: 767px) {
   .mobile {
@@ -308,19 +320,36 @@ a {
   }
 
   #story-a {
-    display: none;
+    width: 90%;
+    height: 100%;
+    overflow: auto;
+    display: grid;
+    background-color:rgb(56, 56, 104, 0.6);
+    margin-left: -1%;
   }
 
   #story-b {
-    display: none;
+    width: 90%;
+    display: grid;
+    justify-content: center;
+    background-color:rgb(56, 56, 104, 0.6);
+    margin-left: 5%;
   }
 
   #story-c {
-    display: none;
+    width: 90%;
+    display: grid;
+    justify-content: center;
+    background-color:rgb(56, 56, 104, 0.6);
+    margin-left: 5%;
   }
 
   #story-d {
-    display: none;
+    width: 90%;
+    display: grid;
+    justify-content: center;
+    background-color:rgb(56, 56, 104, 0.6);
+    margin-left: 5%;
   }
 
   .base {
@@ -494,6 +523,142 @@ a {
   .mail1 {
     text-align: center;
     margin-left: 10px;
+  }
+
+  .multi-img {
+    width: 90%;
+    justify-self: center;
+    height: 100%;
+  }
+
+  .multi-1 {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    align-items: center;
+    justify-self: center;
+  }
+
+  .story-list {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 0px;
+    width: 30%;
+  }
+
+  .story-list2 {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    width: 70%;
+  }
+
+  .story-list li {
+    border-left: 2px solid #5C5C7A;
+    height: 30px;
+    padding-top: 10px;
+    padding-left: 15px;
+    color: #C7C7D5;
+    display: none;
+  }
+
+  .story-list2 li {
+    border-left: 2px solid #5C5C7A;
+    height: 30px;
+    padding-top: 10px;
+    padding-left: 15px;
+    color: #C7C7D5;
+    padding-right: 15px;
+    margin-bottom: 10%;
+  }
+
+  .story-list2 li:last-child {
+    border-right: 2px solid #5C5C7A;
+    padding-right: 15px;
+  }
+
+  .lorem {
+    color: #CDCDD9;
+    text-align: center;
+    font-size: 15px;
+    width: 60%;
+    justify-self: center;
+    line-height: 30px;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    display: none;
+  }
+
+  .lorem2 {
+    color: #F3F3F5;
+    text-align: center;
+    font-size: 15px;
+    width: 80%;
+    justify-self: center;
+    line-height: 30px;
+    margin-top: 4%;
+    margin-bottom: 4%;
+  }
+
+  .multi-para {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 500;
+    display: none;
+  }
+
+  .multi-para2 {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+
+  .close2 {
+    font-size: 25px;
+    color: #CDCDD8;
+  }
+
+  .story-butt {
+    width: 100%;
+    justify-self: center;
+    display: grid;
+    justify-content: center;
+    margin-bottom: 10%;
+    margin-top: 5%;
+  }
+
+  .sl {
+    background-color: #7D73FC;
+    font-size: 15px;
+    width: 80%;
+    justify-content: center;
+    padding-left: 15px;
+    padding-top: 10px;
+    height: 70%;
+  }
+
+  .sc {
+    background-color: #7D73FC;
+    font-size: 15px;
+    width: 100%;
+    justify-content: center;
+    padding-left: 15px;
+    padding-top: 5px;
+    height: 60%;
+    margin-left: -10%;
+    margin-top: 20%;
+  }
+
+  .git {
+    height: 30%;
+    justify-self: center;
+    padding-top: 10px;
+  }
+
+  .tell {
+    display: block !important;
   }
 }
 
@@ -705,6 +870,7 @@ a {
 
   .post {
     display: flex;
+    justify-content: space-between;
     margin: 0 10%;
   }
 
@@ -840,6 +1006,7 @@ a {
   .post-1 {
     display: flex;
     flex-direction: row-reverse;
+    justify-content: space-between;
     margin: 0 10%;
   }
 
@@ -949,7 +1116,8 @@ a {
     display: grid;
     justify-content: center;
     background-color:rgb(56, 56, 104, 0.6);
-    margin-left: 230px;
+    height: 95%;
+    overflow: auto;
   }
 
   #story-b {
@@ -958,7 +1126,7 @@ a {
     justify-content: center;
     background-color:rgb(56, 56, 104, 0.6);
     margin-left: 230px;
-  
+
   }
 
   #story-c {
@@ -993,8 +1161,8 @@ a {
   .story-list {
     display: flex;
     justify-content: space-around;
-    padding-left: 380px;
-    width: 30%;
+    padding-left: 250px;
+    width: 40%;
   }
 
   .story-list li {
@@ -1033,7 +1201,7 @@ a {
   }
 
   .story-butt {
-    width: 30%;
+    width: 40%;
     justify-self: center;
     display: flex;
     justify-content: space-around;
@@ -1046,6 +1214,7 @@ a {
     font-size: 10px;
     width: 30%;
     padding-left: 30px;
+    padding-top: 10px;
   }
 
   .sc {
@@ -1053,10 +1222,35 @@ a {
     font-size: 10px;
     width: 30%;
     padding-left: 30px;
+    padding-top: 10px;
   }
 
   .git {
-    height: 60%;
+    height: 40%;
     justify-self: center;
   }
+  #poupWrapper{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(4px);
+
+}
+
+.lorem2 {
+  display: none;
+}
+
+.multi-para2 {
+  display: none;
+}
+
+.story-list2 {
+  display: none;
+}
 }

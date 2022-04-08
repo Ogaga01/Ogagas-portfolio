@@ -19,61 +19,58 @@ listItem.forEach((item) => {
   });
 });
 
-
-
-
-
-
 // cards
 
-const cardsUl = document.getElementById('cards')
+const cardsUl = document.getElementById('cards');
 
 const projects = [
-   {id:1,
+  {
+    id: 1,
     heading1: 'Multi-Post Stories',
     description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
-    description2: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea`,
+    description2: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
     featuredImage: './images/Img-Placeholder.svg',
     languages: ['css', 'html', 'bootstrap', 'Ruby'],
     linkLive: 'location.href=\'https://kayonga99.github.io/My-Portfolio/index.html\'',
     linkSource: 'https://kayonga99.github.io/My-Portfolio',
-   },
-   {id:2,
+  },
+  {
+    id: 2,
     heading1: 'Multi-Post Stories',
     description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
-    description2: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea`,
+    description2: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
     featuredImage: './images/Img-Placeholder.svg',
     languages: ['css', 'html', 'bootstrap', 'Ruby'],
     linkLive: 'location.href=\'https://kayonga99.github.io/My-Portfolio/index.html\'',
     linkSource: 'https://kayonga99.github.io/My-Portfolio',
-    left: true
-   },
-   {id:3,
+    left: true,
+  },
+  {
+    id: 3,
     heading1: 'Multi-Post Stories',
     description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
-    description2: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea`,
+    description2: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
     featuredImage: './images/Img-Placeholder.svg',
     languages: ['css', 'html', 'bootstrap', 'Ruby'],
     linkLive: 'location.href=\'https://kayonga99.github.io/My-Portfolio/index.html\'',
     linkSource: 'https://kayonga99.github.io/My-Portfolio',
-   },
-   {id:4,
+  },
+  {
+    id: 4,
     heading1: 'Multi-Post Stories',
     description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
-    description2: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea`,
+    description2: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
     featuredImage: './images/Img-Placeholder.svg',
     languages: ['css', 'html', 'bootstrap', 'Ruby'],
     linkLive: 'location.href=\'https://kayonga99.github.io/My-Portfolio/index.html\'',
     linkSource: 'https://kayonga99.github.io/My-Portfolio',
-    left: true
-   },
+    left: true,
+  },
 
 ];
 
-
-const projectCardsList = projects.map((item, index) => {
-  return  `
- <div class="${item.left? 'post-1' : 'post'}">
+const projectCardsList = projects.map((item) => `
+ <div class="${item.left ? 'post-1' : 'post'}">
 <img class="placeholder" src="${item.featuredImage}" alt="placeholder">
 <div class="post-a">
     <h2 class="second-header">${item.heading1}</h2>
@@ -89,21 +86,15 @@ const projectCardsList = projects.map((item, index) => {
       <button class="butt-a" type="button" onclick="popUpData(${item.id})">See Project</button>
 </div>
 </div>
-`
-}
-).join('');
+`).join('');
 
-window.addEventListener('load',()=>cardsUl.innerHTML = projectCardsList);
+window.addEventListener('load', () => {
+  cardsUl.innerHTML = projectCardsList;
+});
 
-
-
-const windowPopupMenu = document.getElementById('story-a')
-
-    const temp = document.getElementById('poupWrapper')
-function popUpData(card) {
-  let oneCard = projects.filter(el => el.id === card)
-  oneCard = oneCard[0]
-    temp.innerHTML = `
+const temp = document.getElementById('poupWrapper');
+function popUpData() {
+  temp.innerHTML = `
 <div id="story-a">
   <div class="multi-1">
       <h2 class="multi-para">Multi-post story</h2>
@@ -131,10 +122,10 @@ function popUpData(card) {
       <a class="sc" href="https://github.com/Ogaga01/Ogagas-portfolio">See Source <img class="git" src="./images/Icon-GitHub.svg" alt="Github icon"></a>
   </div>
 </div>
-`
+`;
   temp.style.display = 'flex';
-
-}
-const closePopup = () => {
+}popUpData();
+function closePopup() {
   temp.style.display = 'none';
 }
+closePopup();

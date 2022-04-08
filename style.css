@@ -36,7 +36,8 @@ a {
   justify-content: space-between;
   flex-direction: row;
 }
-  #poupWrapper{
+
+#poupWrapper {
   position: fixed;
   top: 0;
   left: 0;
@@ -46,7 +47,6 @@ a {
   justify-content: center;
   align-items: center;
   backdrop-filter: blur(4px);
-
 }
 
 @media (max-width: 767px) {
@@ -108,6 +108,25 @@ a {
     height: 30px;
     padding-top: 10px;
     color: #ffff;
+  }
+
+  .story-list li {
+    border-left: 2px solid #5c5c7a;
+    height: 30px;
+    padding-top: 10px;
+    padding-left: 15px;
+    color: #c7c7d5;
+    display: none;
+  }
+
+  .story-list2 li {
+    border-left: 2px solid #5c5c7a;
+    height: 30px;
+    padding-top: 10px;
+    padding-left: 15px;
+    color: #c7c7d5;
+    padding-right: 15px;
+    margin-bottom: 10%;
   }
 
   .frameworks ul li {
@@ -324,7 +343,7 @@ a {
     height: 100%;
     overflow: auto;
     display: grid;
-    background-color:rgb(56, 56, 104, 0.6);
+    background-color: rgb(56, 56, 104, 0.6);
     margin-left: -1%;
   }
 
@@ -332,7 +351,7 @@ a {
     width: 90%;
     display: grid;
     justify-content: center;
-    background-color:rgb(56, 56, 104, 0.6);
+    background-color: rgb(56, 56, 104, 0.6);
     margin-left: 5%;
   }
 
@@ -340,7 +359,7 @@ a {
     width: 90%;
     display: grid;
     justify-content: center;
-    background-color:rgb(56, 56, 104, 0.6);
+    background-color: rgb(56, 56, 104, 0.6);
     margin-left: 5%;
   }
 
@@ -348,7 +367,7 @@ a {
     width: 90%;
     display: grid;
     justify-content: center;
-    background-color:rgb(56, 56, 104, 0.6);
+    background-color: rgb(56, 56, 104, 0.6);
     margin-left: 5%;
   }
 
@@ -542,7 +561,7 @@ a {
   .story-list {
     display: flex;
     justify-content: space-around;
-    padding-left: 0px;
+    padding-left: 0;
     width: 30%;
   }
 
@@ -553,32 +572,13 @@ a {
     width: 70%;
   }
 
-  .story-list li {
-    border-left: 2px solid #5C5C7A;
-    height: 30px;
-    padding-top: 10px;
-    padding-left: 15px;
-    color: #C7C7D5;
-    display: none;
-  }
-
-  .story-list2 li {
-    border-left: 2px solid #5C5C7A;
-    height: 30px;
-    padding-top: 10px;
-    padding-left: 15px;
-    color: #C7C7D5;
-    padding-right: 15px;
-    margin-bottom: 10%;
-  }
-
   .story-list2 li:last-child {
-    border-right: 2px solid #5C5C7A;
+    border-right: 2px solid #5c5c7a;
     padding-right: 15px;
   }
 
   .lorem {
-    color: #CDCDD9;
+    color: #cdcdd9;
     text-align: center;
     font-size: 15px;
     width: 60%;
@@ -590,7 +590,7 @@ a {
   }
 
   .lorem2 {
-    color: #F3F3F5;
+    color: #f3f3f5;
     text-align: center;
     font-size: 15px;
     width: 80%;
@@ -601,14 +601,14 @@ a {
   }
 
   .multi-para {
-    color: #FFFFFF;
+    color: #fff;
     font-size: 20px;
     font-weight: 500;
     display: none;
   }
 
   .multi-para2 {
-    color: #FFFFFF;
+    color: #fff;
     font-size: 20px;
     font-weight: 500;
     margin-top: 10%;
@@ -617,7 +617,7 @@ a {
 
   .close2 {
     font-size: 25px;
-    color: #CDCDD8;
+    color: #cdcdd8;
   }
 
   .story-butt {
@@ -630,7 +630,7 @@ a {
   }
 
   .sl {
-    background-color: #7D73FC;
+    background-color: #7d73fc;
     font-size: 15px;
     width: 80%;
     justify-content: center;
@@ -640,7 +640,7 @@ a {
   }
 
   .sc {
-    background-color: #7D73FC;
+    background-color: #7d73fc;
     font-size: 15px;
     width: 100%;
     justify-content: center;
@@ -777,6 +777,14 @@ a {
 
   .language ul {
     margin-top: 0;
+  }
+
+  .story-list li {
+    border-left: 2px solid #5c5c7a;
+    height: 30px;
+    padding-top: 10px;
+    padding-left: 15px;
+    color: #c7c7d5;
   }
 
   .language ul li {
@@ -1115,7 +1123,7 @@ a {
     width: 70%;
     display: grid;
     justify-content: center;
-    background-color:rgb(56, 56, 104, 0.6);
+    background-color: rgb(56, 56, 104, 0.6);
     height: 95%;
     overflow: auto;
   }
@@ -1124,16 +1132,15 @@ a {
     width: 70%;
     display: grid;
     justify-content: center;
-    background-color:rgb(56, 56, 104, 0.6);
+    background-color: rgb(56, 56, 104, 0.6);
     margin-left: 230px;
-
   }
 
   #story-c {
     width: 70%;
     display: grid;
     justify-content: center;
-    background-color:rgb(56, 56, 104, 0.6);
+    background-color: rgb(56, 56, 104, 0.6);
     margin-left: 230px;
   }
 
@@ -1141,7 +1148,7 @@ a {
     width: 70%;
     display: grid;
     justify-content: center;
-    background-color:rgb(56, 56, 104, 0.6);
+    background-color: rgb(56, 56, 104, 0.6);
     margin-left: 230px;
   }
 
@@ -1165,21 +1172,13 @@ a {
     width: 40%;
   }
 
-  .story-list li {
-    border-left: 2px solid #5C5C7A;
-    height: 30px;
-    padding-top: 10px;
-    padding-left: 15px;
-    color: #C7C7D5;
-  }
-
   .story-list li:last-child {
-    border-right: 2px solid #5C5C7A;
+    border-right: 2px solid #5c5c7a;
     padding-right: 15px;
   }
 
   .lorem {
-    color: #CDCDD9;
+    color: #cdcdd9;
     text-align: center;
     font-size: 15px;
     width: 60%;
@@ -1190,14 +1189,14 @@ a {
   }
 
   .multi-para {
-    color: #FFFFFF;
+    color: #fff;
     font-size: 40px;
     font-weight: 500;
   }
 
   .close2 {
     font-size: 30px;
-    color: #CDCDD8;
+    color: #cdcdd8;
   }
 
   .story-butt {
@@ -1210,7 +1209,7 @@ a {
   }
 
   .sl {
-    background-color: #7D73FC;
+    background-color: #7d73fc;
     font-size: 10px;
     width: 30%;
     padding-left: 30px;
@@ -1218,7 +1217,7 @@ a {
   }
 
   .sc {
-    background-color: #7D73FC;
+    background-color: #7d73fc;
     font-size: 10px;
     width: 30%;
     padding-left: 30px;
@@ -1229,28 +1228,28 @@ a {
     height: 40%;
     justify-self: center;
   }
-  #poupWrapper{
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100vh;
-  display: none;
-  justify-content: center;
-  align-items: center;
-  backdrop-filter: blur(4px);
 
-}
+  #poupWrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(4px);
+  }
 
-.lorem2 {
-  display: none;
-}
+  .lorem2 {
+    display: none;
+  }
 
-.multi-para2 {
-  display: none;
-}
+  .multi-para2 {
+    display: none;
+  }
 
-.story-list2 {
-  display: none;
-}
+  .story-list2 {
+    display: none;
+  }
 }

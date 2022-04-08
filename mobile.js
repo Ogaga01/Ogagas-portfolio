@@ -129,3 +129,21 @@ function closePopup() {
   temp.style.display = 'none';
 }
 closePopup();
+
+function val() {
+  const Inputmail = document.getElementById('email1');
+  const messageErr = document.getElementById('form-error-message1');
+  if (Inputmail.value !== Inputmail.value.toLowerCase()) {
+    messageErr.textContent = 'Your email address should be in lowercase';
+    return false;
+  } return val;
+}val();
+
+function val2() {
+  const Inputmail2 = document.getElementById('email2');
+  const messageErr2 = document.getElementById('form-error-message2');
+  if (Inputmail2.value !== Inputmail2.value.toLowerCase()) {
+    messageErr2.textContent = 'Your email address should be in lowercase';
+    return false;
+  } return val2;
+}val2();

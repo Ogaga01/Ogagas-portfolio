@@ -93,20 +93,23 @@
                 <h2 id="contacts">CONTACT US</h2>
                 <h2 class="chat">Let's chat!</h2>
                 <p class="third-para">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
-                <form class="form" action="https://formspree.io/f/mrgjldpr" method="post">
+                <form class="form" id="spree" action="https://formspree.io/f/mrgjldpr" method="post">
                     <input type="text" class="input" name="name" placeholder="Name" maxlength="30" required>
-                    <input type="email" class="input" name="email" placeholder="Email" required>
+                    <input type="email" class="input" name="email" id="email1" placeholder="Email" required>
                     <textarea name="textarea" id="textarea" cols="30" rows="10" maxlength="500" placeholder="Enter text here" required></textarea>
-                    <button class="butt" type="submit">See Project</button>
+                    <p id="form-error-message1"></p>
+                    <button class="butt" type="submit" onclick="return val()">See Project</button>
                 </form>
-                <form class="form-2" action="https://formspree.io/f/mrgjldpr" method="post">
+                <form class="form-2" id="spree2" action="https://formspree.io/f/mrgjldpr" method="post">
                     <section class="last">
                         <input type="text" class="input" name="first-name" placeholder="First Name" maxlength="30" required>
                         <input type="text" class="input" name="last-name" placeholder="Last Name" maxlength="30" required>
                     </section>
-                    <input type="email" class="email" name="email" placeholder="Email" required>
+                    <input type="email" class="email" name="email" id="email2" placeholder="Email" required>
                     <textarea name="textarea" id="textareas" cols="50" rows="10" maxlength="500" placeholder="Enter text here" required></textarea>
-                    <button class="butt" type="submit">Send</button>
+                    <p id="form-error-message2"></p>
+                    <button class="butt" type="submit" onclick="return val2()">Send</button>
+                    
                 </form>
                 <hr class="footer-hr">
                 <div class="log">

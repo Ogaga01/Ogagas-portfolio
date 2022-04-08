@@ -660,6 +660,11 @@ a {
   .tell {
     display: block !important;
   }
+
+  #form-error-message1 {
+    color: yellow;
+    text-align: center;
+  }
 }
 
 @media (min-width: 768px) {
@@ -1251,5 +1256,10 @@ a {
 
   .story-list2 {
     display: none;
+  }
+
+  #form-error-message2 {
+    color: yellow;
+    text-align: center;
   }
 }

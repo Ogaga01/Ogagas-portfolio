@@ -61,10 +61,6 @@ a {
     display: flex;
   }
 
-  .show {
-    display: block !important;
-  }
-
   .toolbar {
     display: flex;
     justify-content: space-between;

@@ -3,7 +3,7 @@
 
 # mobile-version-portfolio-project
 
-> My portfolio website (Mobile and desktop versions)
+> My portfolio website (Mobile and desktop versions). A microverse project that show a typical portfolio website outlook.
 
 
 ## Built With
